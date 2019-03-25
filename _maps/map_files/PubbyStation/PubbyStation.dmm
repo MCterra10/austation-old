@@ -60005,6 +60005,15 @@
 	},
 /turf/open/floor/engine,
 /area/engine/engineering)
+"sXb" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/chair/office/dark{
+	dir = 8
+	},
+/turf/open/floor/plasteel/white,
+/area/medical/genetics)
 "sXi" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
@@ -60587,6 +60596,12 @@
 	},
 /turf/open/floor/plasteel,
 /area/storage/primary)
+"ulV" = (
+/obj/structure/rack,
+/obj/item/gun/energy/e_gun/dragnet,
+/obj/item/gun/energy/e_gun/dragnet,
+/turf/open/floor/plasteel/dark,
+/area/ai_monitored/security/armory)
 "ulY" = (
 /turf/open/floor/engine,
 /area/engine/engineering)
@@ -85240,8 +85255,8 @@ aik
 aiM
 ajh
 ajR
+ulV
 akN
-aiM
 amj
 amX
 anH
@@ -86584,7 +86599,7 @@ bmi
 bjN
 bow
 bpz
-bpz
+sXb
 bss
 btV
 bou
