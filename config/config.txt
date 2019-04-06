@@ -325,6 +325,9 @@ EXTREME_POPCAP 70
 ## Message for extreme cap
 EXTREME_POPCAP_MESSAGE Austation is currently experiencing a large amount of players, and to conserve server bandwidth and resources, you cannot login at this time.
 
+## Uncomment to allow BYOND subscribers to bypassing server connection population cap. (Living player population cap still applies.)
+BYOND_MEMBER_BYPASS_POPCAP
+
 ## Notify admins when a new player connects for the first x days a player's been around. (0 for first connection only, -1 for never)
 ##	Requres database
 NOTIFY_NEW_PLAYER_AGE 0
