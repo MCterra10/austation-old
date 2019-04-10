@@ -1,5 +1,21 @@
 <!-- Most valid html will work in here, excluding images. -->
 
-<h1>Welcome to Space Station 13!</h1>
+<h1>Welcome to AuStation 13!</h1>
 
-<i>This server is running a /tg/station 13 Git build.</i>
+<h2 style="color:red;">THE SERVER IS STILL UNDER CONSTRUCTION!</h2>
+While I don't mind if you join, note that there is probably nobody else online
+<br>
+Furthermore, please note that there are currently no rules in place
+<br>
+and as such you are free to plasma flood, delam the sm and essentially do anything else you want.
+<br>
+In fact, I recommend you do as many lag inducing activities as possible so I can see how the server holds up.
+<br>
+If you notice excessive lag please contact me at <b style="color:green;">terra@mcterra.id.au</b>
+<br><br>
+<b style="color:fuchsia;">Because people are actually joining the damn server I have created a Discord.</b>
+<br>
+<a href=https://discord.gg/3Rjjbac>Link</a>
+<br><br>
+<b style="color:blue;">Thanks! AuStation proudly hosted by Mcterra</b>
+<br><br>
