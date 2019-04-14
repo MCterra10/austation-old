@@ -534,3 +534,10 @@
 	desc = "There is no air shortage. Do not drink."
 	icon_state = "air"
 	list_reagents = list("nitrogen" = 24, "oxygen" = 6)
+
+/obj/item/reagent_containers/food/drinks/soda_cans/space_bitters
+	name = "SB"
+	desc = "Singlet and thongs not included!"
+	icon_state = "space_bitters"
+	list_reagents = list("beer" = 30)
+	foodtype = GRAIN | ALCOHOL
