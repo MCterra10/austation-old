@@ -2,7 +2,6 @@
 
 <h1>Welcome to AuStation 13!</h1>
 
-<<<<<<< HEAD
 <h2 style="color:red;">Make sure you read and follow the rules posted in Discord (link below)</h2>
 <br>
 <br>
