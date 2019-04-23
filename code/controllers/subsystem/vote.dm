@@ -139,11 +139,12 @@ SUBSYSTEM_DEF(vote)
 					else
 						GLOB.master_mode = .
 			if("transfer")
-				//TODO find a cleaner way to do this
-				SSshuttle.requestEvac(null,"Crew transfer requested.")
-				var/obj/machinery/computer/communications/C = locate() in GLOB.machines
-				if(C)
-					C.post_status("shuttle")
+				if(. == "Initiate Crew Transfer")
+					//TODO find a cleaner way to do this
+					SSshuttle.requestEvac(null,"Crew transfer requested.")
+					var/obj/machinery/computer/communications/C = locate() in GLOB.machines
+					if(C)
+						C.post_status("shuttle")
 	if(restart)
 		var/active_admins = 0
 		for(var/client/C in GLOB.admins)
