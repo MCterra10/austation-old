@@ -103,7 +103,7 @@ PROBABILITY EXTENDED 0
 PROBABILITY SECRET_EXTENDED 0
 PROBABILITY DEVIL 0
 PROBABILITY DEVIL_AGENTS 0
-PROBABILITY CLOWNOPS 0
+PROBABILITY CLOWNOPS 1
 
 ## You probably want to keep sandbox off by default for secret and random.
 PROBABILITY SANDBOX 0
@@ -124,9 +124,9 @@ CONTINUOUS INTERNAL_AFFAIRS
 CONTINUOUS CULT
 CONTINUOUS CLOCKWORK_CULT
 CONTINUOUS CHANGELING
-CONTINUOUS WIZARD
+#CONTINUOUS WIZARD
 #CONTINUOUS MONKEY
-CONTINUOUS HIVEMIND
+#CONTINUOUS HIVEMIND
 
 ##Note: do not toggle continuous off for these modes, as they have no antagonists and would thus end immediately!
 
@@ -210,9 +210,9 @@ SHUTTLE_REFUEL_DELAY 12000
 ## Variables calculate how number of antagonists will scale to population.
 ## Used as (Antagonists = Population / Coeff)
 ## Set to 0 to disable scaling and use default numbers instead.
-TRAITOR_SCALING_COEFF 6
-BROTHER_SCALING_COEFF 6
-CHANGELING_SCALING_COEFF 6
+TRAITOR_SCALING_COEFF 8
+BROTHER_SCALING_COEFF 8
+CHANGELING_SCALING_COEFF 8
 
 ## Variables calculate how number of open security officer positions will scale to population.
 ## Used as (Officers = Population / Coeff)
@@ -338,7 +338,7 @@ GHOST_INTERACTION
 ## If you find that your players are abusing the sandbox panel, this option may slow them down
 ## without preventing people from using it properly.
 ## Only functions in sandbox game mode.
-#SANDBOX_AUTOCLOSE
+SANDBOX_AUTOCLOSE
 
 ## ROUNDSTART SILICON LAWS ###
 ## This controls what the AI's laws are at the start of the round.
@@ -439,6 +439,7 @@ ROUNDSTART_RACES lizard
 ROUNDSTART_RACES moth
 ROUNDSTART_RACES plasmaman
 ROUNDSTART_RACES shadow
+ROUNDSTART_RACES felinid
 
 ## Races that are better than humans in some ways, but worse in others
 ROUNDSTART_RACES ethereal
@@ -521,10 +522,10 @@ BOMBCAP 20
 ## a less lootfilled or smaller or less round effecting ruin costs less to
 ## spawn, while the converse is true. Alter this number to affect the amount
 ## of ruins.
-LAVALAND_BUDGET 80
+LAVALAND_BUDGET 100
 
 ## Space Ruin Budged
-Space_Budget 20
+Space_Budget 30
 
 ## Time in ds from when a player latejoins till the arrival shuttle docks at the station
 ## Must be at least 30. At least 55 recommended to be visually/aurally appropriate
