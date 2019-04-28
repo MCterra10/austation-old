@@ -239,7 +239,7 @@ CHECK_RANDOMIZER
 # WIKIURL http://www.tgstation13.org/wiki
 
 ## Rules address
-# RULESURL http://www.tgstation13.org/wiki/Rules
+RULESURL https://discord.gg/3Rjjbac
 
 ## Github address
 GITHUBURL https://www.github.com/mcterra10/austation
